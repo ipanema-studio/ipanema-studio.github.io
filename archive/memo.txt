@@ -1,0 +1,12 @@
+macOS 환경 설정 과정
+
+0. sleek 백업 폴더 복사
+1. node.js 버전 - v8.16.1
+2. jekyll 설치, bundle install
+3. node_modules/node_sass 폴더 삭제
+4. npm install => node_sass 설치
+5. node_modules/sharp 폴더 내 파일 전체 삭제
+6. sharp-0.20.0 폴더 내 파일 전체를 node_modules/sharp 폴더로 복사
+7. node_modules/sharp 내에서 npm install 실행
+8. node_modules/sharp/build/Release 폴더에 sharp-v0.20.0-node-v57-darwin-x64 바이너리 넣기
+9. gulp sass 사용 후 bundle exec jekyll s 또는 bundle exec jekyll b
