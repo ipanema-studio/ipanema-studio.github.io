@@ -1,3 +1,21 @@
+Ubuntu setup
+
+0. tar github-io-workspace and copy
+1. $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+2. $ nvm install 8
+3. install jekyll as the website doc says
+4. untar the tar file and go to the directory
+5. $ bundle install
+6. create conda environment with python=2.7 and activate it
+7. $ npm rebuild node-sass --force
+8. remove the contents in node_modules/sharp and copy the contents in archive/sharp-0.20.0 to the folder
+9. go to the node_modules/sharp and execute $ npm install
+10. $ gulp sass => image creation
+11. $ bundle exec jekyll build
+12. go to _site (which contains the static website files)
+13. $ jekyll serve
+
+
 macOS 환경 설정 과정
 
 0. sleek 백업 폴더 복사
